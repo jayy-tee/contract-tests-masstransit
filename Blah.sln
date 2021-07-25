@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo-root", "repo-root", "{E34B746A-B4C2-45C6-9D87-A67772A6A7F8}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	readme.md = readme.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blah.MessageContracts", "src\Blah.MessageContracts\Blah.MessageContracts.csproj", "{12285C2B-F8A8-4EF2-A1BE-10F21430FFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blah.MessageContracts.UnitTests", "tests\Blah.MessageContracts.UnitTests\Blah.MessageContracts.UnitTests.csproj", "{C3A3C667-AE34-460C-B8AB-F4699885DD78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12285C2B-F8A8-4EF2-A1BE-10F21430FFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12285C2B-F8A8-4EF2-A1BE-10F21430FFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12285C2B-F8A8-4EF2-A1BE-10F21430FFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12285C2B-F8A8-4EF2-A1BE-10F21430FFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A3C667-AE34-460C-B8AB-F4699885DD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A3C667-AE34-460C-B8AB-F4699885DD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A3C667-AE34-460C-B8AB-F4699885DD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A3C667-AE34-460C-B8AB-F4699885DD78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
